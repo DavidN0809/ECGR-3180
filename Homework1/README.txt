@@ -1,3 +1,6 @@
+link to assignment details
+https://imgur.com/a/xnLN4Om
+
 a)how to compile
 to compile homewort1_a
 g++ -o hw1-a hk1-a.cpp
