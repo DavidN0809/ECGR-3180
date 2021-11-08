@@ -1,1 +1,15 @@
+1. How to Compile
 
+2. Does it work
+2A and 2B does work.
+
+Questions
+For Program A, what is the big-oh O() run-time of your append() method?
+
+For Program A, what is the big-oh O() run-time of your prepend() method?
+
+For Program A, if you were to use prepend() -- like we did in class -- what is the big-oh O() run-time of the cin << operator function?
+
+For Program A, if you were to use append() instead of prepend(), what is the big-oh O() run-time of the cin << operator function?
+
+Finally, for Program B, what is the space requirement (in big-oh O() notation) in for the loop reversal operation?
