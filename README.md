@@ -4,11 +4,11 @@ Homework 1
 /*description here*/
 
 Homework 2
-part 1 (2A)
+2A.cpp objectives
 Overload cout operator
-append and prepend a linked list
+Apeend and Prepend a linked list
 
-part 2 (2B)
-check if list is empty and return true if so
-check if list has a specific node of s, if so return true
-reverse list
+2B.cpp objectives
+check if list is empty and return true if it is
+check if list has a specific id of "s", if so return true
+reverse the list
