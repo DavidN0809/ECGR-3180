@@ -10,16 +10,16 @@ g++ -o hw2-b 2B.cpp
 
 Questions
 For Program A, what is the big-oh O() run-time of your append() method?
-big-oh runtime is O(X)
+big-oh runtime is O(1)
 
 For Program A, what is the big-oh O() run-time of your prepend() method?
-big-oh runtime is O(X)
+big-oh runtime is O(1)
 
 For Program A, if you were to use prepend() -- like we did in class -- what is the big-oh O() run-time of the cin << operator function?
-big-oh runtime is O(X)
+big-oh runtime is O(1)
 
 For Program A, if you were to use append() instead of prepend(), what is the big-oh O() run-time of the cin << operator function?
-big-oh runtime is O(X)
+big-oh runtime is O(1)
 
 Finally, for Program B, what is the space requirement (in big-oh O() notation) in for the loop reversal operation?
-big-oh runtime is O(X)
+big-oh runtime is O(1)
