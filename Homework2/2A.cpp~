@@ -1,0 +1,45 @@
+#include <iostream>
+#include <string>
+#include "list-a.h"
+using namespace std ;
+
+class Node {
+  public:
+    std::string     id ;
+    Node            *next ;
+    Node ( std::string id , Node *next=nullptr ) {
+        this->id = id ;
+        this->next = next ;
+    }
+} ;
+
+class List {
+  public:
+    Node    *head ;
+    List() { head = nullptr ; }
+    Node    *first() { return head ; }
+    friend std::istream& operator>> ( std::istream& sin, List &lst ) ;
+} ;
+
+// this version of the overloaded operator << reads a node ID
+// string from the stream and prepends nodes to the list
+istream& operator>> ( istream& sin, List &lst ) {
+    Node            *tmp ;
+    std::string     id ;
+
+    sin >> id ;
+    while( sin ) {
+        tmp = new Node(id,lst.head) ;
+        lst.head = tmp ;
+        sin >> id ;
+    }
+    return sin ;
+}
+
+int main ( ) {
+    List    a_list ;
+
+    cin >> a_list ;
+    cout << "check output in gdb" << endl ;
+    return 0 ;
+}
